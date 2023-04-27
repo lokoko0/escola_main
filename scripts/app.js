@@ -1,4 +1,5 @@
 var button = document.getElementById("l_mode");
+var imgContainer = document.querySelector(".img-container")
 
 button.addEventListener("click", () => {
   if (document.body.style.color == "black") {
